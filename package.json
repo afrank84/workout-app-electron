@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/afrank84/workout-app-electron/issues"
   },
-  "homepage": "https://github.com/afrank84/workout-app-electron#readme"
+  "homepage": "https://github.com/afrank84/workout-app-electron#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
 }
