@@ -1,3 +1,36 @@
-This is an app but in HTML :)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exercise Log</title>
+</head>
+<body>
 
-- Frank
+<h2>Exercise Log</h2>
+
+<form action="#" method="POST">
+  <label for="exercise">Exercise:</label><br>
+  <input type="text" id="exercise" name="exercise" required><br><br>
+
+  <label for="duration">Duration (minutes):</label><br>
+  <input type="number" id="duration" name="duration" required><br><br>
+
+  <label for="category">Category:</label><br>
+    <select id="category" name="category" required>
+        <option value="">Select Category</option>
+        <option value="body_weight">Body Weight</option>
+        <option value="dumbbells">Dumbbells</option>
+        <option value="stretching">Stretching</option>
+        <option value="other">Other</option>
+    </select><br><br>
+
+
+  <label for="date">Date:</label><br>
+  <input type="date" id="date" name="date" required><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
