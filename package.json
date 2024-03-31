@@ -1,0 +1,24 @@
+{
+  "name": "workout-app-electron",
+  "version": "1.0.0",
+  "description": "Workout Logger",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afrank84/workout-app-electron.git"
+  },
+  "keywords": [
+    "workout",
+    "gym",
+    "logger"
+  ],
+  "author": "Anthony Frank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afrank84/workout-app-electron/issues"
+  },
+  "homepage": "https://github.com/afrank84/workout-app-electron#readme"
+}
